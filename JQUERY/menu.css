@@ -1,0 +1,42 @@
+.dropdownMenu{
+	width: 80%;
+	margin-bottom: 3px;
+}
+.title{
+	padding: 7px 10px;
+	background-color: #994b4b;
+	color: white;
+	margin-bottom: 0;
+}
+.title:hover{
+	background-color: #c26060;
+}
+.dropdownButton:hover{
+	cursor: pointer;
+}
+.dropdownButton > p .fa{
+	float: right;
+}
+.dropdownContent ul{
+	margin: 0;
+	padding: 0 10px;
+}
+.dropdownContent,
+.dropdownButton{
+	border: 1px solid #994b4b;
+}
+.dropdownContent{
+	padding: 15px 8px;
+	background-color: #fff;
+	margin-top: -1px;
+}
+.dropdownContent ul li{
+	list-style: none;
+	padding: 5px 0;
+}
+.dropdownContent ul li a{
+	text-decoration: none;
+}
+.dropdownContent ul li a:hover{
+	color: blue;
+}
